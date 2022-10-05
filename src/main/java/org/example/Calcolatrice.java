@@ -30,4 +30,7 @@ public class Calcolatrice {
             throw new Exception("Errore: divisione per zero.");
         }
     }
+    public int modulo(int a, int b){
+        return a % b;
+    }
 }
